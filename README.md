@@ -29,5 +29,14 @@ All the work is done in __src__ folder.
 
 > You can add mode pages but you will have to configure _webpack.config.js_.
 
+### Changing the title
+Just replace the __Webpack__ in this line in package.json
+```
+template: 'ejs-simple-loader?title=Webpack&activePage=home!./src/index.ejs',
+```
+> It will probably be line no 49.
+> You need to suppy html-webpack-plugin template option a title 
+
+
 ##### Have fun
 
